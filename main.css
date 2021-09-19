@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   display: block;
+   
+}
+  
+h1{
+    background-color: #616060;
+    border-bottom: 3px solid #101010;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+#btnAdicionar{
+    float: right;
+    height: 35px;
+    width: 90px;
+}
+
+
+
+#btnAdicionar:hover{
+    color: rgb(18, 63, 214);
+    transition: .5s ;
+}
+
+#liCheckbox{
+    float: left;
+    position: relative;
+    outline: 0;
+    cursor: pointer;
+    top: 0;
+
+}
+#liBtn{
+    color: rgb(36, 12, 141);
+    float: right;
+    position: right;
+    height: 25px;
+    width: 80px;
+
+}
+
+.sublinha{
+    float: left;
+    position: left;
+    font-size: 15px;
+    color: black;
+    margin-left: 5px;
+}
+
+#textoDigitado {
+    width: 500px;
+    height: 30px;
+    
+}
+
+.divBloco{
+    
+    width: 600px;
+    height: 20px;
+    margin: 5px auto;
+    text-align: left;
+    word-break: break-all;
+    
+}
+.cabecalho{
+    width: 600px;
+    height: 20px;
+    margin: 5px auto;
+    text-align: left;
+    word-break: break-all;
+    padding-left: 40px;
+   
+
+}
+.divBloco > input[type='checkbox']:checked + .sublinha{
+    text-decoration: line-through;
+}
+
+
